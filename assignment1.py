@@ -183,9 +183,9 @@ print(reverse_str)
 num = 1234
 reverse_num = 0
 while (num > 0 ):
-    r = num % 10
-    reverse_num = (reverse_num * 10) + r
-    num  = num // 10
+    r = num % 10 #isolates the last digit as a remainder
+    reverse_num = (reverse_num * 10) + r #adds the remainder into the end reverse_num 
+    num  = num // 10 #divides num by 10 but removes the remainder 
     print(reverse_num)
 
 
