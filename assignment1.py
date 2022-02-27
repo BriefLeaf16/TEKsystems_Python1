@@ -295,7 +295,9 @@ random_numbers = [12,34,123,555]
 music_genres = ['rock', 'r&b', 'pop', 'classical']
 clothing = ['shoes', 'shirt', 'pants', 'socks', 'hoodies','underwear']
 
-teams_dict = {'Real Madrid': "Madrid", 'Manchester United': 'Manchester', 'Bayern Munich': 'Munich', 'PSG': "Paris", 'Juventus': 'Turin'}
+
+#The next line is a dict for soccer teams and their home city
+teams_dict = {'Real Madrid': "Madrid", 'Manchester United': 'Manchester', 'Bayern Munich': 'Munich', 'PSG': "Paris", 'Juventus': 'Turin'} 
 console_dict = {'Sony': 'PlayStation', 'Microsoft': 'Xbox', 'Nintendo': 'Switch'}
 phone_dict = {'Apple': 'Iphone', 'Samsung': 'Galaxy', 'Google': 'Pixel', 'Sony': 'Xperia'}
 closet_dict = {'Pants': 'Levis', 'Shirts': 'Lacoste', 'Underwear': 'Calvin Klein', 'Shoes': 'New Balance'}
