@@ -18,17 +18,23 @@ print("Next is ar1")
 ar1 = Arithmetic(8,9)
 print(ar1.multiply())
 print(ar1.remainder())
+
+
 print("Next is ar2")
 ar2 = Arithmetic(20,50)
 print(ar2.remainder())
 print(ar2.subtract())
+
+
 print('Next is ar3')
 ar3 = Arithmetic(3.14,9.80)
 print(ar3.add())
 print(ar3.divide())
+
+
 print('Next is ar4')
 ar4 = Arithmetic(-7, -4)
 print(ar4.multiply())
 print(ar4.divide())
-print(ar4.remainder())
+print(ar4.remainder()) 
 
