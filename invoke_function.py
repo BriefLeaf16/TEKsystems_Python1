@@ -24,15 +24,27 @@ introduction_with_mix_of_default_args('John')
 
 print('Invoking function that returns values')
 print(product_of_two_num(9,8))
+
+
 print('Function with arbitrary functions')
 print(add_all_nums(1,2,3))
+
+
 print('This is the equivalent of the lambda function')
 print(double(12))
+
+
 print('This is the recursive fibonacci function')
 print(fib(9))
+
+
 print('This is the function level scoping')
 print(subtract(5,2))
+
+
 print('This is the palindrome function')
 print(palindrome_str())
+
+
 print('Not sure if I was even suppose to make a function, but here is the boolean Bob function')
 print(are_you_bob())
